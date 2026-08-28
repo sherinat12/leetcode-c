@@ -1,6 +1,6 @@
 bool checkGoodInteger(int n) {
     int sqsum=0,sum=0;
-    int dtsum;
+    int dtsum=0;
     while(n>0){
         dtsum=n%10;
         sum+=dtsum;
